@@ -40,7 +40,7 @@ class MoodManager extends Component {
         return(
           <div className="wrapper">
             <h4>How are you feeling today? </h4>
-              <button class="happy-button" id="happy" onClick={this.handleMood}>&#9986</button>
+              <button class="happy-button" id="happy" onClick={this.handleMood}></button>
               <button class="ok-button" id="ok" onClick={this.handleMood}></button>
               <button class="sad-button" id="average" onClick={this.handleMood}></button>
           </div>
