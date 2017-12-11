@@ -16,7 +16,7 @@ class Weather extends Component {
   }
 
   getTemp(lat,lng) {
-  return fetch(`http://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lng}&APPID=72af66db614bf9fd03583352142dd7a7`)
+  return fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lng}&APPID=72af66db614bf9fd03583352142dd7a7`)
     .then(response => response.json())
     .then(data => {
 
