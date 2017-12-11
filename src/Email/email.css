@@ -1,0 +1,26 @@
+.email {
+  margin: 0.2em;
+  padding: 1em;
+  align-items: left;
+  border: 2px solid #eb9514;
+  display: inline-block;
+  width: 90%;
+  text-align: center;
+  height: 75px;
+
+}
+
+.time {
+  width: 30%;
+  display: inline-block;
+}
+
+.subject {
+  width: 30%;
+  display: inline-block;
+}
+
+.sender {
+  width: 30%;
+  display: inline-block;
+}

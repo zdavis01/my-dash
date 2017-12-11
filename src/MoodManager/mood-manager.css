@@ -1,0 +1,119 @@
+@font-face {
+  font-family: 'Tilde-Bold';
+  src: url("/Assets/Fonts/Tilde-Bold.otf");
+  font-weight:normal;
+  font-style:normal;
+}
+
+.wrapper {
+  border: 1px solid red;
+  width:70%;
+  margin: 0.2em;
+  margin-top: 3em;
+  padding: 2em;
+  height: 100px;
+  position: fixed;
+  bottom:0;
+  background-color: white;
+
+}
+.message {
+  font-family: 'Tilde-Bold';
+  font-size: 1.5em;
+  font-weight: bold;
+  padding-top: 1em;
+  padding-left: 0.25em;
+}
+
+.happy-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px;
+    margin: .25em;
+    width: 30%;
+    text-align: center;
+    cursor: pointer;
+}
+.ok-button {
+    background-color: #ed9a0c;
+    border: none;
+    color: white;
+    padding: 15px;
+    margin: .25em;
+    width: 30%;
+    text-align: center;
+    cursor: pointer;
+}
+.sad-button {
+    background-color: #ee1e1e;
+    border: none;
+    color: white;
+    padding: 15px;
+    margin: .25em;
+    width: 30%;
+    text-align: center;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+
+  .wrapper {
+    border: 2px solid;
+    width:23%;
+    margin: 0.2em;
+    margin-top: 3em;
+    padding: 2em;
+    height: 100px;
+    position: fixed;
+    bottom:0;
+
+  }
+  .message {
+    font-family: 'Tilde';
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-top: 1em;
+    padding-left: 0.25em;
+  }
+
+  .happy-button {
+      background-color: #4CAF50;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      width: 30%;
+      cursor: pointer;
+  }
+  .ok-button {
+      background-color: #ed9a0c;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      width: 30%;
+      cursor: pointer;
+  }
+  .sad-button {
+      background-color: #ee1e1e;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      width: 30%;
+      cursor: pointer;
+  }
+}

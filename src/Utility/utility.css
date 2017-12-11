@@ -1,0 +1,38 @@
+.circle {
+	width: 100px;
+	height: 100px;
+	border: 1px solid;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+
+}
+
+.wrapper {
+display: inline-block;
+
+}
+.social-media {
+  border: 1px solid;
+  width: 5em;
+  height: 25px;
+  float: left;
+  padding: 2em;
+  display: block;
+}
+
+.social-container {
+  width: 50%;
+  background-color: red;
+  display: inline-block;
+  height: 200px;
+
+}
+
+.weather-container {
+  width: 50%;
+  background-color: green;
+  display: inline-block;
+  height: 200px;
+
+}

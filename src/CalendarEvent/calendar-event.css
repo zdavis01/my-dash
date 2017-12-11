@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'Tilde-bold';
+  src: url("/Assets/Fonts/Tilde-Bold.otf");
+  font-weight:normal;
+  font-style:normal;
+}
+
+@font-face {
+  font-family: 'Tilde-light';
+  src: url("/Assets/Fonts/Tilde-Light.otf");
+  font-weight:normal;
+  font-style:normal;
+}
+
+.calendarCell {
+  border: 2px solid red;
+  width: 85%;
+  padding: 1em;
+  margin: 0.5em;
+
+
+}
+
+.time {
+  font-family: 'Tilde-Bold';
+  font-size: 2em;
+  float: right;
+
+}
+
+.location {
+  font-size: 1em;
+  padding-bottom: 0.5em
+
+
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+  .calendarCell {
+    border: 2px solid red;
+    width: 85%;
+    padding: 1em;
+    margin: 0.5em;
+  }
+
+  .time {
+    font-family: 'Tilde-Bold';
+    font-size: 1em;
+    float: right;
+    vertical-align: middle;
+  }
+
+}
